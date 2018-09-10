@@ -51,4 +51,4 @@ If you find **CASENet** useful in your research, please consider to cite:
 
 ### Related toolkit
 
-The repository of the SBD preprocessing code can be found [here](https://github.com/Chrisding/sbd-preprocess)
+The repository of the SBD preprocessing code can be found [here](https://github.com/Chrisding/sbd-preprocess).
