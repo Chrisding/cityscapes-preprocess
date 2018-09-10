@@ -30,12 +30,12 @@ If you find **CASENet** useful in your research, please consider to cite:
 ### Usage
 **Note:** In this part, we assume you are in the directory **`$CITYSCAPES_PREPROCESS_ROOT/`**
 
-1. Create the folder **`data_orig/`**
+1. Create the folder **`data_orig/`**.
 
 	```Shell
 	mkdir data_orig
 	```
-2. Download the files "gtFine_trainvaltest.zip" and "leftImg8bit_trainvaltest.zip" from the Cityscapes website to **`data_orig/`**, and unzip them
+2. Download the files "gtFine_trainvaltest.zip" and "leftImg8bit_trainvaltest.zip" from the Cityscapes website to **`data_orig/`**, and unzip them.
 
 	```Shell
 	unzip gtFine_trainvaltest.zip && rm gtFine_trainvaltest.zip
