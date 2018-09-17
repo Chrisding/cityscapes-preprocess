@@ -8,7 +8,7 @@
 % 2. Create caffe filelists for the generated data
 % --------------------------------------------------------
 
-function demo_preprocess()
+function demo_preproc()
 
 clc; clear; close all;
 
@@ -46,9 +46,9 @@ if(exist(genDataRoot, 'file')==0)
 end
 
 %% Generate Preprocessed Dataset
-setList = dir([dataRoot '/leftImg8bit']);
-for idxSet = 3:length(setList)
-    setName = setList(idxSet, 1).name;
+setList = {'train', 'val', 'test'};
+for idxSet = 1:length(setList)
+    setName = setList{idxSet};
     fidList = fopen([genDataRoot '/' setName '.txt'], 'w');
     cityList = dir([dataRoot '/leftImg8bit/' setName]);
     for idxCity = 3:length(cityList)
