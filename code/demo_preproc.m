@@ -14,7 +14,7 @@ clc; clear; close all;
 
 %% Setup Directories
 dataRoot = '../data_orig';
-genDataRoot = '../data_gen';
+genDataRoot = '../data_proc';
 suffixImage = '_leftImg8bit.png';
 suffixColor = '_gtFine_color.png';
 suffixLabelIds = '_gtFine_labelIds.png';

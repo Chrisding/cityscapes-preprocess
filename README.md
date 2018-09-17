@@ -42,7 +42,7 @@ If you find **CASENet** useful in your research, please consider to cite:
 	# In Matlab Command Window
 	run code/demo_preproc.m
 	```
-    This will generate the .bin edge labels and the corresponding file lists that could be read by CASENet in **`data_gen/`**.
+    This will generate the .bin edge labels and the corresponding file lists that could be read by CASENet in **`data_proc/`**.
 
 ### Related toolkit
 
