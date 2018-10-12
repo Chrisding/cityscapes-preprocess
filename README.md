@@ -33,8 +33,8 @@ If you find **CASENet** useful in your research, please consider to cite:
 1. Download the files "gtFine_trainvaltest.zip" and "leftImg8bit_trainvaltest.zip" from the Cityscapes website to **`data_orig/`**, and unzip them.
 
 	```Shell
-	unzip gtFine_trainvaltest.zip && rm gtFine_trainvaltest.zip
-	unzip leftImg8bit_trainvaltest.zip && rm leftImg8bit_trainvaltest.zip
+	unzip data_orig/gtFine_trainvaltest.zip && rm data_orig/gtFine_trainvaltest.zip
+	unzip data_orig/leftImg8bit_trainvaltest.zip && rm data_orig/leftImg8bit_trainvaltest.zip
 	```
 2. Run the matlab code to preprocess the data.
 
